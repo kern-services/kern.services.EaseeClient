@@ -32,5 +32,7 @@ jobs:
       run: dotnet build --no-restore --configuration Release
     - name: Create the package
       run: dotnet pack --configuration Release
+    - name: Register source
+      run: dotnet nuget add source --username kern-services --password $GHCR_TOKEN --store-password-in-clear-text --name github "https://nuget.pkg.github.com/kern-services/index.json"
     - name: Publish the package to GPR
-      run: dotnet nuget push src/kern.services.EaseeClient/bin/Release/*.nupkg
+      run: dotnet nuget push src/kern.services.EaseeClient/bin/Release/*.nupkg --source github
