@@ -1,0 +1,11 @@
+# kern.services.EaseeClient.Model.EaseeServicesLifetimeEnergyReportingLifetimeEnergyMeasurementSettingsRequest
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**IntervalInMinutes** | **int** |  | [optional] 
+**AlsoSendWhenNotCharging** | **bool** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
