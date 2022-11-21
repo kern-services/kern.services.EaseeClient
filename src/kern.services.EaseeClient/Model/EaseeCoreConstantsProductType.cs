@@ -48,28 +48,7 @@ namespace kern.services.EaseeClient.Model
         /// <summary>
         /// Enum NUMBER_1000 for value: 1000
         /// </summary>
-        NUMBER_1000 = 1000,
-
-        /// <summary>
-        /// Enum NUMBER_1 for value: 1
-        /// </summary>
-        NUMBER_1 = 1,
-
-        /// <summary>
-        /// Enum NUMBER_100 for value: 100
-        /// </summary>
-        NUMBER_100 = 100,
-
-        /// <summary>
-        /// Enum NUMBER_400 for value: 400
-        /// </summary>
-        NUMBER_400 = 400,
-
-        /// <summary>
-        /// Enum NUMBER_1000 for value: 1000
-        /// </summary>
         NUMBER_1000 = 1000
-
     }
 
 }
